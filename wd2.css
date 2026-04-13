@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IPL 2026</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+        }
+
+        header {
+            background-color: #0b3d91;
+            color: white;
+            text-align: center;
+            padding: 20px;
+        }
+
+        nav {
+            background-color: #022c6c;
+            padding: 12px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin: 15px;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            color: yellow;
+        }
+
+        .banner {
+            background: url('https://images.unsplash.com/photo-1540747913346-19e32dc3e97e') no-repeat center;
+            background-size: cover;
+            height: 350px;
+        }
+
+        .container {
+            padding: 30px;
+            text-align: center;
+        }
+
+        .teams {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 25px;
+        }
+
+        .team-card {
+            background: white;
+            width: 220px;
+            border-radius: 12px;
+            box-shadow: 0 5px 12px rgba(0,0,0,0.2);
+            padding:
